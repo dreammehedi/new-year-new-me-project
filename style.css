@@ -70,7 +70,7 @@ header#header{
 /* header style end */
 
 
-
+/* main style start */
 
 /* my failures previous year style start */
 .my-failures {
@@ -109,6 +109,45 @@ ul.my-failures-list li {
 /* my failures previous year style end */
 
 
+/* my plans style start */
+
+
+.my-plans h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 3rem;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.plan h3 {
+    margin: 10px 0;
+    color: #151414;
+    font-size: 30px;
+}
+
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plan p {
+    color: #737272;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* my plans style end */
 
 
 
@@ -121,12 +160,7 @@ ul.my-failures-list li {
 
 
 
-
-
-
-
-
-/* main style start */
+/* main style end */
 
 
 
@@ -152,3 +186,9 @@ ul.my-failures-list li {
 
 
 /* footer style start */
+
+
+
+
+
+/* footer style end */
