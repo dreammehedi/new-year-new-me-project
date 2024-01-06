@@ -1,9 +1,122 @@
 /* import google fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
 /* reset default value */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Work Sans', sans-serif;
 }
+/* basic styles */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 26px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* header style start */
+header#header{
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+.header-detailes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    max-width: 630px;
+    margin: 0 0 0 auto;
+}
+.header-detailes h1 {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-detailes p {
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 1rem 0;
+}
+
+.header-detailes button {
+    background-color: #F15B22;
+    color: #fff;
+}
+.header-detailes button:hover{
+    border: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main style start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer style start */
