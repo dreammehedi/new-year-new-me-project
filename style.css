@@ -149,40 +149,27 @@ ul.my-failures-list li {
 
 /* my plans style end */
 
+/* mineset style start */
+.mindset{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),
+    url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 70px;
+}
+.mindset h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
 
-
-
-
-
-
-
-
-
-
-
+.mindset button {
+    background: #fff;
+    color: #F15B22;
+}
+/* mineset style end */
 /* main style end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer style start */
