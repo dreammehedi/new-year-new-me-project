@@ -67,14 +67,46 @@ header#header{
     border: 1px solid #ddd;
 }
 
+/* header style end */
 
 
 
 
+/* my failures previous year style start */
+.my-failures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.my-failures-img {
+    width: 900px;
+    height: auto;
+    margin-right: 80px;
+}
 
+.my-failures-img img {
+    width: 100%;
+}
 
+.my-failures-content h1 {
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+}
 
+.my-failures-content p {
+    margin: 20px 0;
+    color: #444343;
+    line-height: 26px;
+}
+ul.my-failures-list li {
+    list-style-type: disclosure-closed;
+    margin: 8px 0;
+    color: #444343;
+    list-style-position: inside;
+}
+/* my failures previous year style end */
 
 
 
